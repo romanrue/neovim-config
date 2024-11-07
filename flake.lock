@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "nixCats": {
+      "locked": {
+        "lastModified": 1730194116,
+        "narHash": "sha256-IuSnvXTB2CM/56cAGIxayX09jktdNx+ZAkU6ZAUufTk=",
+        "owner": "BirdeeHub",
+        "repo": "nixCats-nvim",
+        "rev": "12e9a599d5e9209cb1e5f6f6173b9d322a93aadc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "BirdeeHub",
+        "repo": "nixCats-nvim",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1729265718,
+        "narHash": "sha256-4HQI+6LsO3kpWTYuVGIzhJs1cetFcwT7quWCk/6rqeo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "ccc0c2126893dd20963580b6478d1a10a4512185",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "plugins-snacks": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1731015126,
+        "narHash": "sha256-c8ZuUGkCtgJOPsva/qVgBtLomuSj2I5KoSVEacyf+8Y=",
+        "owner": "folke",
+        "repo": "snacks.nvim",
+        "rev": "9249580739681ee8c8f99f62f498c7fe3f1e0003",
+        "type": "github"
+      },
+      "original": {
+        "owner": "folke",
+        "repo": "snacks.nvim",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixCats": "nixCats",
+        "nixpkgs": "nixpkgs",
+        "plugins-snacks": "plugins-snacks"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
